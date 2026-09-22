@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy local files into container
-COPY app.py .
+COPY main.py .
 
 # Run the Python app
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
